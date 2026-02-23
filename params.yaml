@@ -1,0 +1,7 @@
+split:
+  test_size: 0.2
+  random_state: 42
+grid_search:
+  cv: 3
+  n_estimators: [50, 100]
+  max_depth: [3, 5]
